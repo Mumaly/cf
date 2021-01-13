@@ -14,5 +14,10 @@ class DL():
 
     def Logout(self):
         self.dr.quit()
+
 s1=DL()
 s1.Login()
+print("登录成功")
+time.sleep(10)
+s1.Logout()
+print("登录失败")
